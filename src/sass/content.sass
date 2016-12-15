@@ -1,1 +1,232 @@
 /* from content.sass */
+.design
+  overflow: hidden
+  padding: 0 0 0 0
+  position: relative
+  z-index: 1
+  &__image
+    width: 40%
+    height: 724px
+    background-color: #ededed
+    float: right
+    margin-left: 150px
+  &__subtitle
+    margin-top: 190px
+    font-family: "Exo2Light"
+    color: #ff6d6d
+    text-transform: uppercase
+    margin-left: 150px
+  &__title
+    font-size: em(40)
+    line-height: 43px
+    color: #282828
+    margin-left: 150px
+    span
+      color: #ff6d6d
+      margin-left: 10px
+  &__description
+    font-family: "Exo2Light"
+    color: #282828
+    margin-top: 40px
+    margin-left: 150px
+    &:last-child
+      margin-top: 23px
+
+.features
+  position: relative
+  padding: 131px 0 184px 0
+  background-color: #f6f5f3
+  text-align: center
+  &__pen-holder
+    position: absolute
+    left: 82px
+    top: 0
+    width: 291px
+    height: 314px
+    background: url(../img/pen-holder.png) no-repeat 0 0
+  &__coffee-cup
+    position: absolute
+    right: 50px
+    bottom: 0
+    width: 235px
+    height: 114px
+    background: url(../img/coffee-cup.png) no-repeat 0 0
+  &__earphones
+    position: absolute
+    right: 140px
+    top: -35px
+    width: 213px
+    height: 279px
+    opacity: 0.9
+    background: url(../img/earphones.png) no-repeat 0 0
+  &__subtitle
+    font-family: "Exo2Light"
+    color: #ff6d6d
+    text-transform: uppercase
+  &__title
+    font-size: em(40)
+    line-height: 43px
+    color: #282828
+  &__list
+    margin-top: 84px
+    .list
+      &__item
+        display: inline-block
+        margin-right: 45px
+        width: 342px
+        cursor: pointer
+        transition: 0.4s
+        &:hover
+          opacity: 0.8
+        &:last-child
+          margin-right: 0
+        .item
+          &__logo
+            display: inline-block
+            width: 67px
+            height: 67px
+            border-radius: 50%
+            background: #000
+          &__title
+            margin-top: 12px
+            font-size: em(22)
+            color: #282828
+          &__description
+            color: #282828
+            opacity: 0.66
+            font-family: "Exo2Light"
+          &__logo-1
+            background: url(../img/picture-1.jpg)
+          &__logo-2
+            background: url(../img/picture-2.jpg)
+          &__logo-3
+            background: url(../img/picure-3.jpg)
+
+.responsive-design
+  padding: 93px 211px 93px 55px
+  overflow: hidden
+  &__image
+    float: left
+    width: 630px
+    height: 367px
+    background: url(../img/macbook.jpg) no-repeat 0 0
+    margin-right: 54px
+  &__subtitle
+    font-family: "Exo2Light"
+    color: #ff6d6d
+    text-transform: uppercase
+    margin-top: 45px
+  &__title
+    font-size: em(40)
+    line-height: 43px
+    color: #282828
+    span
+      color: #ff6d6d
+      margin-left: 10px
+  &__description
+    margin-top: 33px
+    font-family: "Exo2Light"
+    color: #282828
+
+.clients
+  text-align: center
+  padding: 108px 0 80px 0
+  background: rgba(#000, 0.8) url(../img/clients-bg.jpg) no-repeat 0 0
+  background-size: 100% 100%
+  .clients__list
+    .clients-list
+      .clients-list__item
+        display: inline-block
+        vertical-align: top
+        width: 325px
+        margin-right: 65px
+        cursor: pointer
+        &:last-child
+          margin-right: 0
+        .clients-list-item
+          &__logo
+            width: 78px
+            height: 78px
+            background-color: #4e4e5e
+            display: inline-block
+            border: 2px solid #1d1e24
+          &__name
+            font-size: em(22)
+            margin-top: 6px
+          &__position
+            font-family: "Exo2Light"
+            color: #ff6d6d
+          &__comment
+            margin-top: 24px
+            font-family: "Exo2LightItalic"
+  .companies__list
+    margin-top: 95px
+    .companies-list
+      &__item
+        display: inline-block
+        vertical-align: middle
+        transition: 0.4s
+        &:hover
+          opacity: 0.3
+      &__item_item-1
+        width: 130px
+        height: 65px
+        background: url(../img/partner-logo-1.png) no-repeat 0 0
+        margin-right: 89px
+      &__item_item-2
+        width: 110px
+        height: 56px
+        background: url(../img/partner-logo-2.png) no-repeat 0 0
+        margin-right: 106px
+      &__item_item-3
+        width: 98px
+        height: 85px
+        background: url(../img/partner-logo-3.png) no-repeat 0 0
+        margin-right: 113px
+      &__item_item-4
+        width: 95px
+        height: 61px
+        background: url(../img/partner-logo-4.png) no-repeat 0 0
+        margin-right: 102px
+      &__item_item-5
+        width: 120px
+        height: 54px
+        background: url(../img/partner-logo-5.png) no-repeat 0 0
+
+.browser
+  text-align: center
+  padding: 103px 0 0 0
+  &__subtitle
+    font-family: "Exo2Light"
+    color: #ff6d6d
+    text-transform: uppercase
+  &__title
+    font-size: em(40)
+    line-height: 43px
+    color: #282828
+    span
+      color: #ff6d6d
+      margin-left: 10px
+  &__description
+    display: inline-block
+    width: 647px
+    color: #282828
+    opacity: 0.66
+    margin: 36px 0 93px 0
+  &__image
+    width: 820px
+    height: 375px
+    margin: 0 auto
+    background: url(../img/browser.jpg) no-repeat 0 0
+
+.try-now
+  text-align: center
+  padding: 80px 0 80px 0
+  background-color: #323969
+  &__subtitle
+    font-family: "Exo2Light"
+    color: #ff6d6d
+    text-transform: uppercase
+  &__title
+    font-size: em(40)
+    line-height: 43px

@@ -24,7 +24,7 @@ var path = {
         styles: "src/sass/main.sass",
         js:     "src/js/*.js",
         img:    "src/img/*.*",
-        fonts:  "src/fonts/*.*"
+        fonts:  "src/fonts/*/*.*"
     },
     watch: {
         pug:    "src/index.pug",
