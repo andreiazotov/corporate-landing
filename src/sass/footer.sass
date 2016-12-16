@@ -1,1 +1,119 @@
 /* from footer.sass */
+.page-footer
+  padding: 85px 0 100px 150px
+  position: relative
+  &::after
+    position: absolute
+    content: ""
+    z-index: -1
+    width: 0
+    height: 0
+    border-style: solid
+    border-width: 770.5px 740px 770.5px 0
+    border-color: transparent #ff6d6d transparent transparent
+    right: 0
+    top: -1189px
+    opacity: 0.8
+  &__contacts
+    display: inline-block
+    vertical-align: top
+    margin-right: 60px
+    .contacts
+      width: 231px
+      &__logo
+        width: 103px
+        height: 47px
+        background: url(../img/footer-logo.jpg) no-repeat 0 0
+      &__description,
+      &__phone,
+      &__address
+        font-size: em(14)
+        color: #282828
+        opacity: 0.56
+        margin-top: 10px
+  &__support
+    display: inline-block
+    vertical-align: top
+    margin-right: 110px
+    .support
+      &__title
+        font-size: em(22)
+        color: #282828
+        margin-bottom: 22px
+      &__link
+        font-size: em(14)
+        color: #282828
+        opacity: 0.66
+        text-decoration: none
+        display: block
+        margin-top: 10px
+  &__about
+    display: inline-block
+    vertical-align: top
+    margin-right: 95px
+    .about
+      &__title
+        font-size: em(22)
+        color: #282828
+        margin-bottom: 22px
+      &__link
+        font-size: em(14)
+        color: #282828
+        opacity: 0.66
+        text-decoration: none
+        display: block
+        margin-top: 10px
+  &__newsletter
+    display: inline-block
+    vertical-align: top
+    .newsletter
+      &__title
+        font-size: em(22)
+        color: #282828
+        margin-bottom: 22px
+      &__field
+        color: #000
+        opacity: 0.4
+        text-transform: uppercase
+        padding: 13px 0 13px 26px
+        width: 187px
+        opacity: 0.4
+        background-color: rgba(141, 141, 141, 0.2)
+        border: 1px solid #4e4e5e
+        border-right: none
+        border-radius: 3px
+        border-top-right-radius: 0
+        border-bottom-right-radius: 0
+      &__submit
+        width: 52px
+        height: 45px
+        background: #ff6d6d url(../img/paperplane.png) no-repeat 50% 50%
+        border: 1px solid #ff6d6d
+        border-radius: 3px
+        box-shadow: 0 3px 3px rgba(14, 15, 15, 0.25)
+      &__links
+        .newsletter-links
+          margin-top: 20px
+          text-align: center
+          &__item
+            display: inline-block
+            background: url(../img/socials.png) no-repeat 0 0
+            vertical-align: baseline
+            margin-right: 20px
+          &__item_item-1
+            width: 20px
+            height: 21px
+            background-position: 0 0
+          &__item_item-2
+            width: 11px
+            height: 21px
+            background-position: -50px 0
+          &__item_item-3
+            width: 20px
+            height: 17px
+            background-position: -90px -3px
+          &__item_item-4
+            width: 19px
+            height: 17px
+            background-position: -134px -2px
+            margin-right: 0
