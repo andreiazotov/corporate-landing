@@ -4,6 +4,10 @@
   padding: 0 0 0 0
   position: relative
   z-index: 1
+  transition: 0.8s
+  &:hover
+    background-color: #c0c0c0
+    opacity: 0.8
   &__image
     width: 40%
     height: 724px
@@ -48,6 +52,13 @@
   padding: 131px 0 184px 0
   background-color: #f6f5f3
   text-align: center
+  &:hover
+    .features__pen-holder
+      left: 100px
+    .features__coffee-cup
+      right: 150px
+    .features__earphones
+      top: -50px
   &__pen-holder
     position: absolute
     left: 82px
@@ -55,6 +66,7 @@
     width: 291px
     height: 314px
     background: url(../img/pen-holder.png) no-repeat 0 0
+    transition: 0.8s
   &__coffee-cup
     position: absolute
     right: 50px
@@ -62,6 +74,7 @@
     width: 235px
     height: 114px
     background: url(../img/coffee-cup.png) no-repeat 0 0
+    transition: 0.8s
   &__earphones
     position: absolute
     right: 140px
@@ -70,6 +83,7 @@
     height: 279px
     opacity: 0.9
     background: url(../img/earphones.png) no-repeat 0 0
+    transition: 0.8s
   &__subtitle
     font-family: "Exo2Light"
     color: #ff6d6d
@@ -152,6 +166,12 @@
         width: 325px
         margin-right: 65px
         cursor: pointer
+        &:hover
+          .clients-list-item
+            &__name
+              color: #ff6d6d
+            &__position
+              color: #fff
         &:last-child
           margin-right: 0
         .clients-list-item
@@ -164,9 +184,11 @@
           &__name
             font-size: em(22)
             margin-top: 6px
+            transition: 0.8s
           &__position
             font-family: "Exo2Light"
             color: #ff6d6d
+            transition: 0.8s
           &__comment
             margin-top: 24px
             font-family: "Exo2LightItalic"
@@ -258,6 +280,9 @@
         border-radius: 3px
         opacity: 0.5
         background-color: rgba(246, 245, 243, 0.2)
+        transition: 0.5s
+        &:focus
+          opacity: 1
       &__submit
         display: inline-block
         position: relative
@@ -285,6 +310,9 @@
           font-family: "Exo2Light"
           padding: 10px 88px 10px 88px
           cursor: pointer
+          transition: 0.8s
+          &:hover
+            box-shadow: 0 5px 3px rgba(14, 15, 15, 0.81)
   &__terms
     margin-top: 40px
     color: #f6f5f3
