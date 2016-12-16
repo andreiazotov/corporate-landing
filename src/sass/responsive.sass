@@ -1,1 +1,206 @@
 /* from responsive.sass */
+@media screen and (max-width: 1355px)
+  .design
+    &__image
+      &::after
+        right: -255px
+  .responsive-design
+    padding-right: 55px
+  .page-footer
+    padding-left: 100px
+
+@media screen and (max-width: 1165px)
+  .design
+    &__image
+      &::after
+        right: -355px
+    &__subtitle
+      margin-top: 100px
+  .features
+    &__list
+      margin-top: 84px
+      .list
+        &__item
+          display: inline-block
+          margin-right: 75px
+          width: 260px
+  .clients
+    .clients__list
+      .clients-list
+        .clients-list__item
+          width: 300px
+          margin-right: 60px
+  .try-now
+    &__signup
+      .signup
+        &__field
+          display: block
+          margin: 0 auto 20px auto
+        &__submit
+          display: block
+          margin: 0 auto
+          p
+            left: 455px
+            top: 65px
+            &::after
+              left: 195px
+              top: -8px
+              transform: rotate(-130deg)
+    &__terms
+      margin-top: 60px
+  .responsive-design
+    padding-right: 25px
+    padding-left: 10px
+    &__image
+      margin-right: 40px
+
+@media screen and (max-width: 1165px)
+  .responsive-design
+    padding-right: 40px
+    padding-left: 40px
+    &__image
+      display: none
+  .clients
+    .clients__list
+      .clients-list
+        .clients-list__item
+          width: 250px
+          margin-right: 60px
+    .companies__list
+      .companies-list
+        &__item_item-1
+          margin-right: 35px
+        &__item_item-2
+          margin-right: 35px
+        &__item_item-3
+          margin-right: 35px
+        &__item_item-4
+          margin-right: 35px
+  .try-now
+    &__signup
+      .signup
+        &__submit
+          p
+            left: 405px
+  .page-footer
+    padding-left: 50px
+
+@media screen and (max-width: 1000px)
+  .design
+    &__subtitle
+      margin-top: 50px
+  .page-footer
+    padding-left: 0
+    text-align: center
+    &__contacts,
+    &__support,
+    &__about
+      margin-right: 50px
+      text-align: left
+  .try-now
+    &__signup
+      .signup
+        &__submit
+          p
+            left: 305px
+
+@media screen and (max-width: 950px)
+  .design
+    padding: 0 30px 30px 30px
+    &__image
+      display: none
+    &__subtitle,
+    &__title,
+    &__description
+      margin-left: 0
+  .features
+    &__list
+      margin-top: 84px
+      .list
+        &__item
+          display: block
+          width: 460px
+          margin: 0 auto 40px auto
+          &:last-child
+            margin: 0 auto 40px auto
+
+@media screen and (max-width: 950px)
+  .page-header
+    padding: 20px 0 100px 0
+    &__title
+      width: 100%
+  .features
+    &__pen-holder,
+    &__earphones,
+    &__coffee-cup
+      display: none
+  .browser
+    &__image
+      display: none
+    &__description
+      width: 100%
+  .clients
+    .clients__list
+      .clients-list
+        .clients-list__item
+          width: 460px
+          display: block
+          margin: 30px auto 0 auto
+          &:last-child
+            margin: 30px auto 0 auto
+    .companies__list
+      .companies-list
+        &__item
+          display: block
+        &__item_item-1,
+        &__item_item-2,
+        &__item_item-3,
+        &__item_item-4,
+        &__item_item-5
+          margin: 20px auto 0 auto
+  .try-now
+    &__signup
+      .signup
+        &__submit
+          p
+            display: none
+
+@media screen and (max-width: 820px)
+  .page-footer
+    &__about
+      margin-right: 0
+    &__newsletter
+      margin-top: 50px
+
+@media screen and (max-width: 530px)
+  .page-footer
+    &::after
+      display: none
+    &__about,
+    &__support,
+      display: block
+      text-align: center
+      margin-top: 50px
+      margin-right: 0
+      font-size: em(20)
+    &__contacts
+      display: block
+      font-size: em(20)
+      margin-right: 0
+      .contacts
+        margin: 0 auto
+
+@media screen and (max-width: 460px)
+  .page-header
+    &__title
+      font-size: em(36)
+  .features
+    &__list
+      .list
+        &__item
+          width: 300px
+  .clients
+    .clients__list
+      .clients-list
+        .clients-list__item
+          width: 310px
